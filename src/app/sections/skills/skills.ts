@@ -3,5 +3,6 @@ export const SKILL_GROUPS = [
   "Business Analysis",
   "Software Engineering",
   "DevOps",
-  "Artificial Intelligence"
+  "Artificial Intelligence",
+  "Python & Data Science"
 ];

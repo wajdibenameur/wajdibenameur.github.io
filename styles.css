@@ -224,6 +224,13 @@ main,
   box-shadow: var(--shadow);
 }
 
+.section-lead {
+  margin: 0;
+  max-width: 820px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
 .hero-copy {
   padding: 34px;
 }
