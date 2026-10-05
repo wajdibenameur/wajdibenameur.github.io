@@ -76,6 +76,7 @@ a:hover {
 
 .topbar,
 main,
+
 .footer {
   position: relative;
   z-index: 1;
@@ -319,16 +320,6 @@ h2 {
   color: var(--muted);
   line-height: 1.65;
 }
-.visitor-card {
-  gap: 10px;
-}
-
-.visitor-counter {
-  max-width: 100%;
-  height: 28px;
-  object-fit: contain;
-}
-
 .hero-panel {
   padding: 24px;
   display: grid;
@@ -662,11 +653,29 @@ h2 {
   gap: 20px;
 }
 
+
 .footer {
   max-width: var(--container);
   margin: 0 auto;
   padding: 10px 24px 30px;
   color: var(--muted);
+  display: grid;
+  gap: 10px;
+  justify-items: start;
+}
+
+.visitor-counter-footer {
+  opacity: 0.55;
+  transition: opacity 0.2s ease;
+}
+
+.visitor-counter-footer:hover {
+  opacity: 1;
+}
+
+.visitor-counter-footer img {
+  display: block;
+  height: 20px;
 }
 
 [data-lang-visible="false"] {
