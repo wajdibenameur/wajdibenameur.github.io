@@ -25,6 +25,7 @@
     "stats.technologies": "Technologies",
     "stats.experience": "Annees d'experience metier",
     "stats.focus": "Axes principaux",
+    "stats.visitors": "Visiteurs",
     "hero.profileKicker": "Profil hybride",
     "hero.profileTitle": "Des besoins metier aux solutions Full Stack fiables",
     "hero.profileText":
@@ -245,6 +246,7 @@
     "stats.technologies": "Technologies",
     "stats.experience": "Years business experience",
     "stats.focus": "Core focus areas",
+    "stats.visitors": "Visitors",
     "hero.profileKicker": "Hybrid profile",
     "hero.profileTitle": "From business needs to reliable Full Stack solutions",
     "hero.profileText":
