@@ -1,1 +1,1 @@
-export const ABOUT_TITLE = "A profile built across business, delivery and technology";
+﻿export const ABOUT_TITLE = "Full Stack engineering with business understanding";

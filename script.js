@@ -1,4 +1,4 @@
-const translations = {
+﻿const translations = {
   fr: {
     "brand.name": "Wajdi Ben Ameur",
     "brand.tagline": "Portfolio professionnel",
@@ -6,16 +6,17 @@ const translations = {
     "nav.expertise": "Competences",
     "nav.stack": "Technos",
     "nav.projects": "Projets",
+    "nav.aiProjects": "IA",
     "nav.deliverables": "Livrables",
     "nav.journey": "Parcours",
     "nav.contact": "Contact",
     "nav.viewProjects": "Voir les projets",
-    "hero.eyebrow": "Strategie metier -> Livraison logicielle -> IA",
-    "hero.title": "Analyste metier technique",
-    "hero.title2": "Ingenieur Java full stack",
-    "hero.title3": "Transformation digitale & livraison IA",
+    "hero.eyebrow": "Java | Spring Boot | Angular | APIs REST | Microservices | Docker | Kubernetes | CI/CD",
+    "hero.title": "Ingenieur logiciel Full Stack",
+    "hero.title2": "Analyste metier technique",
+    "hero.title3": "Data/BI, DevOps & integration IA",
     "hero.lead":
-      "Relier le metier, le developpement logiciel et l'intelligence artificielle pour transformer les besoins en solutions digitales scalables.",
+      "Ingenieur logiciel Full Stack avec competences en Business Analysis, Data/BI, DevOps et integration IA, pour transformer les operations metier en solutions digitales fiables.",
     "hero.cvFull": "Telecharger CV Full Stack",
     "hero.cvBA": "Telecharger CV Business Analyst",
     "hero.viewFull": "Voir CV Full Stack",
@@ -25,24 +26,24 @@ const translations = {
     "stats.experience": "Annees d'experience metier",
     "stats.focus": "Axes principaux",
     "hero.profileKicker": "Profil hybride",
-    "hero.profileTitle": "De la strategie metier a la transformation digitale",
+    "hero.profileTitle": "Des besoins metier aux solutions Full Stack fiables",
     "hero.profileText":
-      "J'aide les organisations a transformer leurs besoins metier en solutions digitales scalables grace a l'analyse metier, l'ingenierie logicielle et l'IA.",
+      "Je developpe des solutions digitales Full Stack avec Java/Spring Boot, Angular, APIs REST, Docker, Kubernetes et CI/CD, soutenues par une forte comprehension metier.",
     "hero.quote":
-      "Relier le metier, la technologie et l'intelligence artificielle pour creer des solutions utiles.",
+      "Transformer les besoins operationnels en solutions Java, Angular et IA fiables.",
     "hero.imageAlt": "Portrait professionnel de Wajdi Ben Ameur",
     "about.eyebrow": "A propos",
-    "about.title": "Le metier d'abord, la technologie ensuite, la valeur toujours",
+    "about.title": "Des operations metier a l ingenierie Full Stack",
     "about.text1":
-      "Plus de 10 ans d'experience dans la banque, la microfinance, la finance, la relation client, la vente, le suivi KPI, le management et la coordination d'equipe.",
+      "Ingenieur logiciel specialise en Java/Spring Boot et Angular, avec experience pratique en applications Full Stack, APIs REST, services backend securises et deploiements conteneurises.",
     "about.text2":
-      "Puis une transition vers l'analyse metier, l'ingenierie logicielle, le DevOps et l'intelligence artificielle pour livrer des solutions digitales scalables.",
-    "about.valueTitle": "Ce qui differencie le profil",
-    "about.value1": "Expertise metier",
-    "about.value2": "Ingenierie logicielle",
-    "about.value3": "Intelligence artificielle",
-    "about.value4": "DevOps et leadership",
-    "about.value5": "Services financiers",
+      "Mon profil ingenieur est renforce par des competences DevOps, Data/BI et IA, ainsi qu une forte comprehension metier issue de la finance, microfinance, operations commerciales et management d equipe.",
+    "about.valueTitle": "Ce qui renforce le profil",
+    "about.value1": "Full Stack Java / Angular",
+    "about.value2": "Analyse metier technique",
+    "about.value3": "DevOps et CI/CD",
+    "about.value4": "Data/BI et integration IA",
+    "about.value5": "Finance et comprehension metier",
     "expertise.eyebrow": "Expertise cle",
     "expertise.title": "Analyse metier, ingenierie, IA et livraison",
     "expertise.business.badge": "BUSINESS",
@@ -52,14 +53,14 @@ const translations = {
     "expertise.tech.badge": "ENGINEERING",
     "expertise.tech.title": "Ingenierie logicielle",
     "expertise.tech.text":
-      "Java, Spring Boot, Spring AI, Angular, TypeScript, APIs REST, microservices, PostgreSQL et Maven.",
+      "Java 21, Spring Boot, Spring Security, JPA/Hibernate, JWT, APIs REST, microservices, Spring Cloud, API Gateway, Kafka, Resilience4j, Angular, TypeScript et Maven.",
     "expertise.ai.badge": "AI",
     "expertise.ai.title": "Intelligence artificielle",
     "expertise.ai.text":
-      "Spring AI, RAG, sortie structuree, streaming, analyse d'image, base vectorielle et integration LLM.",
+      "Spring AI, LLM, RAG, embeddings, PGVector, Google Gemini, Ollama, DeepSeek local, PyTorch, TensorFlow, TorchScript, DJL, analyse d'image et streaming.",
     "expertise.devops.badge": "DEVOPS",
     "expertise.devops.title": "DevOps",
-    "expertise.devops.text": "Docker, Kubernetes, GitHub Actions, Jenkins, Git, SonarCloud et automatisation.",
+    "expertise.devops.text": "Git/GitHub, Docker, Docker Compose, Kubernetes/k3s, Helm, GitHub Actions, Jenkins, SonarQube/SonarCloud, Linux, AWS et Azure fundamentals.",
     "expertise.finance.badge": "FINANCE",
     "expertise.finance.title": "Services financiers",
     "expertise.finance.text": "Banque, microfinance, analyse de credit, gestion de portefeuille, recouvrement et analyse du risque.",
@@ -68,6 +69,22 @@ const translations = {
     "expertise.leadership.text": "Management d'equipe, recrutement, entretiens, formation, coordination de projet, gestion des ressources et negociation.",
     "projects.eyebrow": "Projets selectionnes",
     "projects.title": "Projets publics selectionnes",
+    "aiProjects.eyebrow": "IA & IA generative",
+    "aiProjects.title": "Preuves de concept qui relient besoins metier et IA",
+    "aiProjects.lead":
+      "Cette section met en avant les projets qui montrent comment j'utilise l'IA pour creer des assistants utiles, des sorties structurees et des experiences de recherche contextuelle.",
+    "aiProjects.card1.title": "Plateforme modulaire Spring AI",
+    "aiProjects.card1.text":
+      "Plateforme modulaire pour RAG documentaire, chat IA, sortie structuree, analyse d'image et streaming.",
+    "aiProjects.card2.title": "Plateforme de pilotage metier",
+    "aiProjects.card2.text":
+      "Application metier qui montre une vision operationnelle, une aide a la decision et une valeur claire.",
+    "aiProjects.card3.title": "Laboratoire de classification d'images",
+    "aiProjects.card3.text":
+      "Projet de classification d'images base sur CNN pour illustrer une preuve de concept machine learning.",
+    "aiProjects.card4.title": "RAG, PGVector et integration LLM",
+    "aiProjects.card4.text":
+      "Recherche contextuelle, vector search et integration de modeles pour une livraison IA pratique.",
     "filters.all": "Tous",
     "filters.business": "Analyse metier",
     "filters.java": "Java",
@@ -79,8 +96,10 @@ const translations = {
     "stack.frontend": "Frontend",
     "stack.devops": "DevOps",
     "stack.ai": "IA",
-    "stack.database": "Base de donnees",
+    "stack.database": "Bases de donnees / Data",
     "stack.ba": "Analyse metier",
+    "stack.testing": "Tests et qualite",
+    "stack.data": "Data / BI",
     "cases.eyebrow": "Etudes de cas",
     "cases.title": "Projets racontes comme des histoires metier",
     "cases.case1.title": "Plateforme Spring AI",
@@ -99,12 +118,13 @@ const translations = {
     "deliverables.card3.text": "Diagrammes d'architecture, contrats API, CI/CD, plans de tests et documentation.",
     "journey.eyebrow": "Parcours professionnel",
     "journey.title": "Un parcours de l'operationnel vers l'ingenierie",
-    "journey.step1": "2012 - Banque et operations client",
-    "journey.step2": "2015 - Microfinance et relation client",
-    "journey.step3": "2019 - Vente, management et developpement commercial",
-    "journey.step4": "2023 - Analyse metier et documentation",
-    "journey.step5": "2024 - Ingenierie logicielle, DevOps et livraison IA",
-    "journey.step6": "2025 - Chef d'equipe et contributeur transformation digitale chez ChicColor",
+    "journey.step1": "Sep 2015 - Jan 2017 | Responsable de Portefeuille chez Microcred Tunisie : vente de credits, portefeuille clients, prospection et analyse de remboursement.",
+    "journey.step2": "Jan 2017 - Jan 2021 | Superviseur d'equipe chez Microcred Tunisie : encadrement des charges de portefeuille, objectifs commerciaux, dossiers de credit, risque et recouvrement.",
+    "journey.step3": "Jan 2021 - Jan 2022 | Adjoint Chef d'Agence chez Microcred Tunisie : performance agence, reporting KPI, coordination equipe et controle operationnel.",
+    "journey.step4": "Jan 2022 - Fev 2024 | Chef d'Agence chez Microcred Tunisie : pilotage agence, developpement portefeuille credit, management commercial et suivi recouvrement.",
+    "journey.step5": "Mar 2024 - Mar 2025 | IT & Application Support / Support fonctionnel chez Zitouna Tamkeen : support Abacus, incidents GLPI, evolution CRM et assistance utilisateurs.",
+    "journey.step6": "Mar 2025 - Present | Full Stack Contributor chez ChicColor : business analysis, Java/Spring Boot, Angular, Docker/Kubernetes et solutions digitales internes.",
+    "journey.step7": "Jan 2026 - Jul 2026 | Stage PFE ingenieur chez MSB : plateforme de supervision avec Spring Boot, Angular, PostgreSQL, Keycloak, CI/CD et prediction IA de severite.",
     "industry.eyebrow": "Domaines metier",
     "industry.title": "Secteurs et contextes que je comprends",
     "industry.card1.title": "Banking & Microfinance",
@@ -118,7 +138,7 @@ const translations = {
     "methodologies.card1.title": "Agile et Scrum",
     "methodologies.card1.text": "Cadence courte, priorisation claire, retours rapides et collaboration continue.",
     "methodologies.card2.title": "Business Analysis",
-    "methodologies.card2.text": "Analyse des besoins, specification fonctionnelle, validation metier et traçabilite.",
+    "methodologies.card2.text": "Analyse des besoins, specification fonctionnelle, validation metier et traÃ§abilite.",
     "methodologies.card3.title": "Delivery et Quality",
     "methodologies.card3.text": "CI/CD, tests, documentation et amelioration continue pour livrer proprement.",
     "tools.eyebrow": "Outils BA",
@@ -167,13 +187,16 @@ const translations = {
     "languages.ar": "Arabe",
     "languages.ar.level": "Langue maternelle",
     "certifications.eyebrow": "Certifications",
-    "certifications.title": "Preuves verifiees et apprentissage en cours",
-    "certifications.card1.title": "Analyse metier verifiee",
-    "certifications.card1.text": "Experience terrain, livrables fonctionnels, specifications et validation metier.",
-    "certifications.card2.title": "Ingenierie et livraison",
-    "certifications.card2.text": "Pratique sur Java, Angular, Spring Boot, Spring AI, DevOps et tests.",
-    "certifications.card3.title": "Apprentissage continu",
-    "certifications.card3.text": "Veille continue sur le cloud, la qualite logicielle et les usages IA.",
+    "certifications.title": "Formations techniques et apprentissage continu",
+    "certifications.card1.title": "Full Stack Spring Boot / Angular / DevOps",
+    "certifications.card1.text": "SIP Academy 2024 : Spring Boot, Angular, REST, JPA/Hibernate, microservices, Feign, Kafka, JWT, Docker, Kubernetes et CI/CD.",
+    "certifications.card2.title": "Java OCA/OCP",
+    "certifications.card2.text": "SIP Academy 2024 : Java 8/11/17/21, POO, Collections, Streams/Lambda, concurrence, I/O, JDBC, securite et Design Patterns.",
+    "certifications.card3.title": "DevOps / CKAD",
+    "certifications.card3.text": "SIP Academy 2025 : Jenkins, GitLab CI/CD, Docker, Kubernetes, kubectl, YAML, SonarQube, Nexus, Maven, JUnit et labs Killercoda.",
+    "certifications.card4.title": "Data, BI, Cloud et IA",
+    "certifications.card4.text":
+      "DataCamp Python intermediaire 2026, Power BI & Microsoft Fabric 2026, AWS Responsible AI, GenAI, Prompt Engineering, AI Security/Governance et ML/AI Fundamentals.",
     "github.stats1": "Projets publics selectionnes",
     "github.stats2": "CV professionnels",
     "github.stats3": "Etudes de cas documentees",
@@ -182,7 +205,7 @@ const translations = {
     "github.title": "Presence publique et activite",
     "contact.eyebrow": "Contact",
     "contact.title": "Pret a travailler ensemble ?",
-    "contact.text": "Telecharge les CV, le portfolio PDF, visite GitHub, connecte-toi sur LinkedIn et ouvre les etudes de cas des projets.",
+    "contact.text": "Telecharge les CV, visite GitHub, connecte-toi sur LinkedIn ou contacte-moi par email.",
     "contact.portfolio": "Telecharger portfolio PDF",
     "contact.downloadBA": "Telecharger CV BA",
     "contact.downloadFull": "Telecharger CV Full Stack",
@@ -190,6 +213,7 @@ const translations = {
     "contact.viewFull": "Voir CV Full Stack",
     "contact.github": "GitHub",
     "contact.linkedin": "LinkedIn",
+    "contact.email": "Email",
     "footer.text": "Concu pour GitHub Pages. Simple, premium et facile a faire evoluer.",
     "project.available": "Disponible",
     "project.caseStudy": "Etude de cas",
@@ -203,16 +227,17 @@ const translations = {
     "nav.expertise": "Expertise",
     "nav.stack": "Stack",
     "nav.projects": "Projects",
+    "nav.aiProjects": "AI",
     "nav.deliverables": "Deliverables",
     "nav.journey": "Journey",
     "nav.contact": "Contact",
     "nav.viewProjects": "View Projects",
-    "hero.eyebrow": "Business Strategy -> Software Delivery -> AI",
-    "hero.title": "Technical Business Analyst",
-    "hero.title2": "Full Stack Java Engineer",
-    "hero.title3": "Digital Transformation & AI Delivery",
+    "hero.eyebrow": "Java | Spring Boot | Angular | REST APIs | Microservices | Docker | Kubernetes | CI/CD",
+    "hero.title": "Full Stack Software Engineer",
+    "hero.title2": "Technical Business Analyst",
+    "hero.title3": "Data/BI, DevOps & AI Integration",
     "hero.lead":
-      "Bridging Business, Software Engineering and Artificial Intelligence to transform business needs into scalable digital solutions.",
+      "Full Stack Software Engineer with Business Analysis, Data/BI, DevOps and AI integration skills, turning business operations into reliable digital solutions.",
     "hero.cvFull": "Download Full Stack CV",
     "hero.cvBA": "Download Business Analyst CV",
     "hero.viewFull": "View Full Stack CV",
@@ -222,24 +247,24 @@ const translations = {
     "stats.experience": "Years business experience",
     "stats.focus": "Core focus areas",
     "hero.profileKicker": "Hybrid profile",
-    "hero.profileTitle": "From business strategy to digital transformation",
+    "hero.profileTitle": "From business needs to reliable Full Stack solutions",
     "hero.profileText":
-      "I help organizations transform business needs into scalable digital solutions through business analysis, software engineering and AI.",
+      "I build Full Stack digital solutions with Java/Spring Boot, Angular, REST APIs, Docker, Kubernetes and CI/CD, supported by strong business understanding.",
     "hero.quote":
-      "Bridging business, technology and artificial intelligence to create useful solutions.",
+      "Turning operational needs into reliable Java, Angular and AI-enabled digital solutions.",
     "hero.imageAlt": "Professional portrait of Wajdi Ben Ameur",
     "about.eyebrow": "About",
-    "about.title": "Business first, technology second, value delivery always",
+    "about.title": "From business operations to Full Stack engineering",
     "about.text1":
-      "Over 10 years of experience in banking, microfinance, finance, customer relations, sales, KPI tracking, management and team coordination.",
+      "Software Engineer specialized in Java/Spring Boot and Angular, with hands-on experience building Full Stack applications, REST APIs, secure backend services and containerized deployments.",
     "about.text2":
-      "Then a transition toward business analysis, software engineering, DevOps and artificial intelligence to deliver scalable digital solutions.",
-    "about.valueTitle": "What makes the profile different",
-    "about.value1": "Business expertise",
-    "about.value2": "Software engineering",
-    "about.value3": "Artificial intelligence",
-    "about.value4": "DevOps and leadership",
-    "about.value5": "Financial services",
+      "My engineering profile is strengthened by DevOps, Data/BI and AI skills, plus strong business understanding gained through finance, microfinance, commercial operations and team management.",
+    "about.valueTitle": "What strengthens the profile",
+    "about.value1": "Full Stack Java / Angular",
+    "about.value2": "Technical Business Analysis",
+    "about.value3": "DevOps and CI/CD",
+    "about.value4": "Data/BI and AI integration",
+    "about.value5": "Finance and business understanding",
     "expertise.eyebrow": "Core Expertise",
     "expertise.title": "Business Analysis, Engineering, AI and Delivery",
     "expertise.business.badge": "BUSINESS",
@@ -249,14 +274,14 @@ const translations = {
     "expertise.tech.badge": "ENGINEERING",
     "expertise.tech.title": "Software Engineering",
     "expertise.tech.text":
-      "Java, Spring Boot, Spring AI, Angular, TypeScript, REST APIs, Microservices, PostgreSQL and Maven.",
+      "Java 21, Spring Boot, Spring Security, JPA/Hibernate, JWT, REST APIs, Microservices, Spring Cloud, API Gateway, Kafka, Resilience4j, Angular, TypeScript and Maven.",
     "expertise.ai.badge": "AI",
     "expertise.ai.title": "Artificial Intelligence",
     "expertise.ai.text":
-      "Spring AI, RAG, Structured Output, Streaming, Image Analysis, Vector Database and LLM Integration.",
+      "Spring AI, LLM, RAG, embeddings, PGVector, Google Gemini, Ollama, DeepSeek local, PyTorch, TensorFlow, TorchScript, DJL, image analysis and streaming.",
     "expertise.devops.badge": "DEVOPS",
     "expertise.devops.title": "DevOps",
-    "expertise.devops.text": "Docker, Kubernetes, GitHub Actions, Jenkins, Git, SonarCloud and automation.",
+    "expertise.devops.text": "Git/GitHub, Docker, Docker Compose, Kubernetes/k3s, Helm, GitHub Actions, Jenkins, SonarQube/SonarCloud, Linux, AWS and Azure fundamentals.",
     "expertise.finance.badge": "FINANCE",
     "expertise.finance.title": "Financial Services",
     "expertise.finance.text": "Banking, Microfinance, Credit Analysis, Portfolio Management, Debt Collection and Risk Analysis.",
@@ -265,6 +290,22 @@ const translations = {
     "expertise.leadership.text": "Team Management, Recruitment, Interviews, Training, Project Coordination, Resource Management and Negotiation.",
     "projects.eyebrow": "Featured Projects",
     "projects.title": "Selected public projects",
+    "aiProjects.eyebrow": "AI & Generative AI",
+    "aiProjects.title": "Proofs of concept that connect business needs and AI",
+    "aiProjects.lead":
+      "This section highlights the projects that show how I use AI to create useful assistants, structured outputs and contextual search experiences.",
+    "aiProjects.card1.title": "Spring AI Multi-Module Platform",
+    "aiProjects.card1.text":
+      "Modular platform for document RAG, AI chat, structured output, image analysis and streaming.",
+    "aiProjects.card2.title": "Business Operations Platform",
+    "aiProjects.card2.text":
+      "Business application that shows an operational view, decision support and a clear business value story.",
+    "aiProjects.card3.title": "Image Classification Lab",
+    "aiProjects.card3.text":
+      "CNN-based image classification project used as a machine learning proof of concept.",
+    "aiProjects.card4.title": "RAG, PGVector and LLM Integration",
+    "aiProjects.card4.text":
+      "Context-aware retrieval, vector search and model integration for practical AI delivery.",
     "filters.all": "All",
     "filters.business": "Business Analysis",
     "filters.java": "Java",
@@ -276,8 +317,10 @@ const translations = {
     "stack.frontend": "Frontend",
     "stack.devops": "DevOps",
     "stack.ai": "AI",
-    "stack.database": "Database",
+    "stack.database": "Databases / Data",
     "stack.ba": "Business Analysis",
+    "stack.testing": "Testing & Quality",
+    "stack.data": "Data / BI",
     "cases.eyebrow": "Case Studies",
     "cases.title": "Projects explained as business stories",
     "cases.case1.title": "Spring AI platform",
@@ -296,20 +339,24 @@ const translations = {
     "deliverables.card3.text": "Architecture diagrams, API contracts, CI/CD, test plans and documentation.",
     "journey.eyebrow": "Professional Journey",
     "journey.title": "A path from operations to engineering",
-    "journey.step1": "2012 - Banking and customer operations",
-    "journey.step2": "2015 - Microfinance and customer relations",
-    "journey.step3": "2019 - Sales, management and business development",
-    "journey.step4": "2023 - Business analysis and documentation",
-    "journey.step5": "2024 - Software engineering, DevOps and AI delivery",
-    "journey.step6": "2025 - Team Leader & Digital Transformation Contributor at ChicColor",
+    "journey.step1": "Sep 2015 - Jan 2017 | Portfolio Manager at Microcred Tunisie: credit sales, client portfolio, prospecting and repayment analysis.",
+    "journey.step2": "Jan 2017 - Jan 2021 | Team Supervisor at Microcred Tunisie: supervised portfolio officers, sales targets, credit files, risk and collection follow-up.",
+    "journey.step3": "Jan 2021 - Jan 2022 | Deputy Branch Manager at Microcred Tunisie: branch performance, KPI reporting, team coordination and operational control.",
+    "journey.step4": "Jan 2022 - Feb 2024 | Branch Manager at Microcred Tunisie: agency leadership, credit portfolio growth, commercial management and recovery monitoring.",
+    "journey.step5": "Mar 2024 - Mar 2025 | IT & Application Support / Functional Support at Zitouna Tamkeen: Abacus support, GLPI incidents, CRM evolution and user assistance.",
+    "journey.step6": "Mar 2025 - Present | Full Stack Contributor at ChicColor: business analysis, Java/Spring Boot, Angular, Docker/Kubernetes and internal digital solutions.",
+    "journey.step7": "Jan 2026 - Jul 2026 | Final-Year Engineering Project at MSB: monitoring platform with Spring Boot, Angular, PostgreSQL, Keycloak, CI/CD and AI severity prediction.",
     "certifications.eyebrow": "Certifications",
-    "certifications.title": "Verified proof and ongoing learning",
-    "certifications.card1.title": "Verified business analysis",
-    "certifications.card1.text": "Hands-on experience, functional deliverables, specifications and business validation.",
-    "certifications.card2.title": "Engineering and delivery",
-    "certifications.card2.text": "Practice with Java, Angular, Spring Boot, Spring AI, DevOps and testing.",
-    "certifications.card3.title": "Current learning",
-    "certifications.card3.text": "Continuous learning in cloud, software quality and AI usage.",
+    "certifications.title": "Technical training and continuous learning",
+    "certifications.card1.title": "Full Stack Spring Boot / Angular / DevOps",
+    "certifications.card1.text": "SIP Academy 2024: Spring Boot, Angular, REST, JPA/Hibernate, microservices, Feign, Kafka, JWT, Docker, Kubernetes and CI/CD.",
+    "certifications.card2.title": "Java OCA/OCP",
+    "certifications.card2.text": "SIP Academy 2024: Java 8/11/17/21, OOP, Collections, Streams/Lambda, concurrency, I/O, JDBC, security and Design Patterns.",
+    "certifications.card3.title": "DevOps / CKAD",
+    "certifications.card3.text": "SIP Academy 2025: Jenkins, GitLab CI/CD, Docker, Kubernetes, kubectl, YAML, SonarQube, Nexus, Maven, JUnit and Killercoda labs.",
+    "certifications.card4.title": "Data, BI, Cloud and AI",
+    "certifications.card4.text":
+      "DataCamp Intermediate Python 2026, Power BI & Microsoft Fabric 2026, AWS Responsible AI, GenAI, Prompt Engineering, AI Security/Governance and ML/AI Fundamentals.",
     "what.eyebrow": "Why work with me",
     "what.title": "What I bring to a team",
     "what.lead": "A quick summary of the value I bring to a recruiter or manager.",
@@ -341,7 +388,7 @@ const translations = {
     "github.title": "Public presence and activity",
     "contact.eyebrow": "Contact",
     "contact.title": "Ready to work together?",
-    "contact.text": "Download the CVs, the portfolio PDF, visit GitHub, connect on LinkedIn and open the project case studies.",
+    "contact.text": "Download the CVs, visit GitHub, connect on LinkedIn or contact me by email.",
     "contact.portfolio": "Download portfolio PDF",
     "contact.downloadBA": "Download BA CV",
     "contact.downloadFull": "Download Full Stack CV",
@@ -349,6 +396,7 @@ const translations = {
     "contact.viewFull": "View Full Stack CV",
     "contact.github": "GitHub",
     "contact.linkedin": "LinkedIn",
+    "contact.email": "Email",
     "footer.text": "Built for GitHub Pages. Simple, premium and easy to extend.",
     "project.available": "Available",
     "project.caseStudy": "Case study",
@@ -360,143 +408,90 @@ const translations = {
 const projects = [
   {
     id: "spring-ai-multi-module-platform",
-    title: {
-      fr: "Plateforme modulaire Spring AI",
-      en: "Spring AI Multi-Module Platform"
-    },
+    title: { fr: "Plateforme d'IA generative multimodale et RAG", en: "Multimodal Generative AI and RAG Platform" },
     description: {
-      fr: "Plateforme modulaire pour RAG documentaire, chat IA, sortie structuree, analyse d'image et streaming.",
-      en: "Modular platform for document RAG, AI chat, structured output, image analysis and streaming."
+      fr: "Assistant documentaire RAG PDF/CV avec reponses sourcees, chat IA, sorties JSON typees, analyse d'image et streaming.",
+      en: "PDF/CV document RAG assistant with sourced answers, AI chat, typed JSON outputs, image analysis and streaming."
     },
     tags: ["business", "java", "ai"],
-    meta: ["Spring Boot", "Spring AI", "Angular", "PGVector"],
+    meta: ["Java 21", "Spring Boot", "Spring AI", "Angular", "PostgreSQL", "PGVector", "OpenAI API", "Docker Compose"],
     github: "https://github.com/wajdibenameur/spring-ai-multi-module-platform",
     caseLink: "#cases",
-    role: {
-      fr: "Concepteur et developpeur de plateforme",
-      en: "Platform designer and developer"
-    },
+    role: { fr: "Concepteur et developpeur Full Stack IA", en: "Full Stack AI designer and developer" },
     businessValue: {
-      fr: "Demontre un assistant RAG concret, modulaire et utile pour une presentation portfolio.",
-      en: "Shows a concrete, modular RAG assistant that is useful in a portfolio presentation."
-    }
-  },
-  {
-    id: "PFEWorks",
-    title: {
-      fr: "Plateforme de pilotage metier",
-      en: "Business Operations Platform"
-    },
-    description: {
-      fr: "Application metier pour centraliser les besoins, structurer les echanges et piloter la livraison.",
-      en: "Business application to centralize needs, structure collaboration and guide delivery."
-    },
-    tags: ["business", "java"],
-    meta: ["Business Analysis", "Java", "Architecture"],
-    github: "https://github.com/wajdibenameur/PFEWorks",
-    caseLink: "#cases",
-    role: {
-      fr: "Analyste metier et contributeur technique",
-      en: "Business analyst and technical contributor"
-    },
-    businessValue: {
-      fr: "Illustre l'alignement entre besoin metier, conception et execution technique.",
-      en: "Shows alignment between business need, design and technical execution."
+      fr: "Montre la capacite a livrer un assistant IA documentaire concret, exploitable et integre a une application web.",
+      en: "Shows the ability to deliver a practical document AI assistant integrated into a web application."
     }
   },
   {
     id: "digital-bank-app-microservice-avec-docker",
-    title: {
-      fr: "Plateforme bancaire digitale",
-      en: "Digital Banking Platform"
-    },
+    title: { fr: "Plateforme bancaire digitale en microservices", en: "Digital Banking Microservices Platform" },
     description: {
-      fr: "Plateforme bancaire digitale en microservices avec Docker, communication interservices et interface Angular.",
-      en: "Digital banking platform built with microservices, Docker, service communication and an Angular interface."
+      fr: "Services clients/comptes, configuration centralisee, decouverte, API Gateway, communication Feign Client et resilience Circuit Breaker.",
+      en: "Customer/account services, centralized configuration, discovery, API Gateway, Feign Client communication and Circuit Breaker resilience."
     },
     tags: ["java", "devops"],
-    meta: ["Microservices", "Docker", "Angular", "Feign"],
+    meta: ["Java 17", "Spring Boot", "Spring Cloud", "Feign Client", "Resilience4j", "Angular", "MySQL", "Docker Compose"],
     github: "https://github.com/wajdibenameur/digital-bank-app-microservice-avec-docker",
     caseLink: "#cases",
-    role: {
-      fr: "Developpeur microservices et integration",
-      en: "Microservices and integration developer"
-    },
+    role: { fr: "Developpeur microservices Java/Spring Cloud", en: "Java/Spring Cloud microservices developer" },
     businessValue: {
-      fr: "Prouve la capacite a livrer une architecture distribuee coherent et reproductible.",
-      en: "Proves the ability to deliver a coherent and reproducible distributed architecture."
-    }
-  },
-  {
-    id: "PredictionCifarCNN",
-    title: {
-      fr: "Laboratoire de classification d'images",
-      en: "Image Classification Lab"
-    },
-    description: {
-      fr: "Modele CNN pour classifier CIFAR-10 et illustrer une preuve de concept machine learning.",
-      en: "CNN model for CIFAR-10 classification and a machine learning proof of concept."
-    },
-    tags: ["ai"],
-    meta: ["Python", "CNN", "TensorFlow"],
-    github: "https://github.com/wajdibenameur/PredictionCifarCNN",
-    caseLink: "#cases",
-    role: {
-      fr: "Developpeur ML",
-      en: "ML developer"
-    },
-    businessValue: {
-      fr: "Montre une preuve simple de classification image pour parler d'IA appliquee.",
-      en: "Provides a simple image classification proof point for applied AI discussions."
+      fr: "Prouve la maitrise d'une architecture bancaire distribuee, resiliente et reproductible.",
+      en: "Demonstrates mastery of a distributed, resilient and reproducible banking architecture."
     }
   },
   {
     id: "dev-test-ops-aymen-wajdi",
-    title: {
-      fr: "Qualite logicielle et automatisation",
-      en: "Software Quality and Automation"
-    },
+    title: { fr: "Plateforme Full Stack orientee qualite et DevTestOps", en: "Quality-Oriented Full Stack and DevTestOps Platform" },
     description: {
-      fr: "Projet de qualite logicielle, tests, SonarCloud et GitHub Actions pour montrer la rigueur de delivery.",
-      en: "Software quality project with tests, SonarCloud and GitHub Actions to demonstrate delivery rigor."
+      fr: "Application Spring Boot/Angular avec tests unitaires, integration et BDD, pipeline GitHub Actions, Docker et Kubernetes.",
+      en: "Spring Boot/Angular application with unit, integration and BDD tests, GitHub Actions pipeline, Docker and Kubernetes."
     },
-    tags: ["devops"],
-    meta: ["JUnit", "Mockito", "SonarCloud", "GitHub Actions"],
+    tags: ["java", "devops"],
+    meta: ["Java", "Spring Boot", "Angular", "JUnit", "Mockito", "Cucumber", "GitHub Actions", "Docker", "Kubernetes", "SonarCloud"],
     github: "https://github.com/wajdibenameur/dev-test-ops-aymen-wajdi",
     caseLink: "#cases",
-    role: {
-      fr: "Ingenieur qualite logicielle",
-      en: "Software quality engineer"
-    },
+    role: { fr: "Developpeur Full Stack et qualite logicielle", en: "Full Stack and software quality developer" },
     businessValue: {
-      fr: "Montre la rigueur des tests, de l'analyse statique et de l'automatisation.",
-      en: "Shows rigor in tests, static analysis and automation."
+      fr: "Valorise la rigueur de livraison avec tests, qualite de code, automatisation CI/CD et conteneurisation.",
+      en: "Highlights delivery rigor through testing, code quality, CI/CD automation and containerization."
+    }
+  },
+  {
+    id: "PredictionCifarCNN",
+    title: { fr: "Application de classification d'images CIFAR-10", en: "CIFAR-10 Image Classification Application" },
+    description: {
+      fr: "Integration d'un modele CNN dans une application web avec upload d'image, API de prediction, resultat UI et securisation JWT.",
+      en: "CNN model integrated into a web application with image upload, prediction API, UI result and JWT security."
+    },
+    tags: ["ai", "java"],
+    meta: ["Java", "Spring Boot", "Angular", "PyTorch", "TorchScript", "DJL", "JWT", "REST API"],
+    github: "https://github.com/wajdibenameur/PredictionCifarCNN",
+    caseLink: "#cases",
+    role: { fr: "Developpeur IA appliquee et integration web", en: "Applied AI and web integration developer" },
+    businessValue: {
+      fr: "Illustre l'integration d'un modele machine learning dans une application securisee utilisable.",
+      en: "Shows how to integrate a machine learning model into a usable secured application."
     }
   },
   {
     id: "jenkins_CICD_kubernetes",
-    title: {
-      fr: "Pipeline CI/CD et Kubernetes",
-      en: "CI/CD Pipeline and Kubernetes"
-    },
+    title: { fr: "Pipeline CI/CD Jenkins - Docker - Kubernetes", en: "Jenkins - Docker - Kubernetes CI/CD Pipeline" },
     description: {
-      fr: "Automatisation CI/CD et orchestration pour montrer une chaine de livraison claire et reproductible.",
-      en: "CI/CD automation and orchestration to show a clear and reproducible delivery pipeline."
+      fr: "Automatisation du build et du deploiement d'une application Angular via Jenkins, webhook GitHub, image Docker et manifests Kubernetes/Minikube.",
+      en: "Automated build and deployment of an Angular application with Jenkins, GitHub webhook, Docker image and Kubernetes/Minikube manifests."
     },
     tags: ["devops"],
-    meta: ["Jenkins", "Kubernetes", "Docker"],
+    meta: ["Jenkins", "GitHub Webhook", "Docker", "Kubernetes", "Minikube", "kubectl", "Angular", "Ubuntu", "Ngrok"],
     github: "https://github.com/wajdibenameur/jenkins_CICD_kubernetes",
     caseLink: "#cases",
-    role: {
-      fr: "Ingenieur DevOps",
-      en: "DevOps engineer"
-    },
+    role: { fr: "Ingenieur DevOps junior", en: "Junior DevOps engineer" },
     businessValue: {
-      fr: "Met en avant une chaine CI/CD claire, automatisable et facile a presenter.",
-      en: "Highlights a clear, automatable and easy-to-present CI/CD pipeline."
+      fr: "Montre une chaine CI/CD concrete, reproductible et adaptee aux environnements Kubernetes locaux.",
+      en: "Shows a concrete, reproducible CI/CD chain adapted to local Kubernetes environments."
     }
   }
-];
+]
 
 const state = {
   lang: "fr",

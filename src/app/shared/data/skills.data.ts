@@ -1,22 +1,22 @@
-export const SKILLS = [
+﻿export const SKILLS = [
   {
     title: "Business Analysis",
     summary: "Requirements, process mapping, traceability and stakeholder alignment."
   },
   {
     title: "Software Engineering",
-    summary: "Java, Spring Boot, Angular, APIs and maintainable architecture."
+    summary: "Java 21, Spring Boot, Spring Security, JPA/Hibernate, JWT, REST APIs, Microservices, Spring Cloud, API Gateway, Kafka, Resilience4j, Angular and maintainable architecture."
   },
   {
     title: "DevOps",
-    summary: "Docker, CI/CD, GitHub Actions, quality and delivery automation."
+    summary: "Docker, Docker Compose, Kubernetes/k3s, Helm, GitHub Actions, Jenkins, SonarQube/SonarCloud, Linux and delivery automation."
   },
   {
     title: "Artificial Intelligence",
-    summary: "Spring AI, RAG, structured output, image analysis and streaming."
+    summary: "Spring AI, LLM, RAG, embeddings, PGVector, Gemini, Ollama, DeepSeek local, PyTorch, TensorFlow, TorchScript, DJL and streaming."
   },
   {
     title: "Python & Data Science",
-    summary: "Python, Pandas, Matplotlib, Keras and FastAPI for data, ML and APIs."
+    summary: "PostgreSQL, MySQL, MongoDB, SQL, NoSQL, Python, Power BI, Microsoft Fabric, KPI, reporting, PyTorch and TensorFlow for data, BI and ML."
   }
 ];
